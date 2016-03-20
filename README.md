@@ -25,7 +25,7 @@ This file provides a step-by-step navigation through the analysis from start to 
 
 # Process Documentation
 
-Below is a step-by-step description of the process used for this assignment. Please find the figures mentioned below uploaded in the uploaded word document above. 
+Below is a step-by-step description of the process used for this assignment. Please find the figures mentioned below in the uploaded word document above. 
 
 Step 1. Validating data. We will start by checking to see if we have the accurate and complete list of States in each file and ensure compatibility by ensuring that we have equal number of States in each file and identify missing States.
  

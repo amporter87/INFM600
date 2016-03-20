@@ -19,8 +19,9 @@ This dataset includes Provider information, description of total charges, and Pr
 [3] Lastly the cb_2014_us_State_5m accessed from https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html is just a dataset to help join datasets [1] and [2] based on their unique fields which appear in both short and full name formats. This dataset has both ids in short and full formats which will be used to link dataset [1] and [2]. 
 
 # Files
-* StepByStepProcesstoResultFile_v5.
-* This file provides a step-by-step navigation through the analysis from start to finish to make it easier for others to replicate. 
+StepByStepProcesstoResultFile_v5.
+
+This file provides a step-by-step navigation through the analysis from start to finish to make it easier for others to replicate. 
 
 # Process Documentation
 

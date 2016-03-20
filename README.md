@@ -25,4 +25,8 @@ This file provides a step-by-step navigation through the analysis from start to 
 
 # Process Documentation
 
+# Overall conclusions
 
+# License
+
+# References

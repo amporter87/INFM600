@@ -63,8 +63,20 @@ Fiqure 8. Linear approximation of dependence.
 
 # Overall conclusions
 
+Correlation coefficient between ATP and WBI (0.47) can be interpreted as a possible average dependence between WBI and ATP with a positive sign, showing that the higher WBI makes higher ATP values. R2   is 0.22, indicating a weak correlation in the sample since the value is far from 1. Taking other contributing variables into consideration may help with better approximations. However, this study demonstrates that potentially higher well-being index leads to higher average total payments in hospitals at State level.
+
 # License
+
+The data in the INFM600 repository is distributed under a Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International License (see 
+http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Acknowledgements
 
 # References
+
+[1] Inpatient Prospective Payment System (IPPS) Provider Summary for the Top 100 Diagnosis-Related Groups (DRG) - FY2011. Created in 2011. Retrieved form https://data.cms.gov/Medicare/Inpatient-Prospective-Payment-System-IPPS-Provider/97k6-zzx3
+
+[2] Key quality of life indicators. Created in Feb 04, 2015. Retrieved form https://catalog.data.gov/dataset/choose-maryland-compare-States-quality-of-life-2798c/resource/11387121-74ae-4a37-aea7-2864db2104e3
+
+[3] Cartographic Boundary Shapefiles - States. Created in 2014. Retrieved form https://www.census.gov/geo/maps-data/data/cbf/cbf_State.html

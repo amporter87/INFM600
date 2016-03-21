@@ -9,14 +9,14 @@ Version 1.0 (March 2016)
 
 # Description
 
-In order to examine whether or not "Well-Being index" (WBI) has any impact on the Average total payments (ATP) of hospitals at the State level, three public datasets were used for analysis:
+In order to examine whether or not "well-being index" (WBI) has any impact on the average total payments (ATP) of hospitals at the state level, three public datasets were used for analysis:
 
 [1] Inpatient Prospective Payment System (IPPS) Provider Summary for the Top 100 Diagnosis-Related Groups (DRG) accessed from: https://data.cms.gov/Medicare/Inpatient-Prospective-Payment-System-IPPS-Provider/97k6-zzx3.
-This dataset includes Provider information, description of total charges, and Provider summaries in US Dollars which includes Average total payments. Specifically, this data includes information comparing the charges for the 100 most frequently billed discharges. Providers determine what they will charge for items and services provided to patients. The information in this dataset shows the actual amount the hospital bills for an item or service.
+This dataset includes Provider information, description of total charges, and Provider summaries in US Dollars which includes average total payments. Specifically, this data includes information comparing the charges for the 100 most frequently billed discharges. Providers determine what they will charge for items and services provided to patients. The information in this dataset shows the actual amount the hospital bills for an item or service.
  
-[2] The compare States quality of life accessed from: https://data.maryland.gov/Health-and-Human-Services/Choose-Maryland-Compare-States-Quality-Of-Life/cz6x-aq2i. This dataset includes key quality of life indicators to include "Well-Being Index."
+[2] The compare States quality of life accessed from: https://data.maryland.gov/Health-and-Human-Services/Choose-Maryland-Compare-States-Quality-Of-Life/cz6x-aq2i. This dataset includes key quality of life indicators to include "well-being index."
 
-[3] Lastly, the cb_2014_us_State_5m accessed from https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html is just a dataset to help join datasets [1] and [2] based on their unique fields. These fields appear in both short and full name formats which will be used to link dataset [1] and [2]. 
+[3] Lastly, the cb_2014_us_State_5m accessed from https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html is just a dataset to help join datasets [1] and [2] based on their unique fields. These fields appear in both short and full name formats which will be used to link datasets [1] and [2]. 
 
 # Files
 StepByStepProcesstoResultFile_v5.
@@ -27,7 +27,7 @@ This file provides step-by-step guidance through the documentation and analysis 
 
 Below is a step-by-step description of the entire process. Please find the figures mentioned below in the uploaded word document on the main page. 
 
-Step 1. Validating data. We will start by checking to see if we have the accurate and complete list of States in each file. Ensuring that we have an equal number of States in each file will help to identify missing States.
+Step 1. Validating data. We will start by checking to see if we have the accurate and complete list of states in each file. Ensuring that we have an equal number of states in each file will help to identify missing States.
  
  Figure 1. Data validation results.
 We had to copy “State” (column B) from [2] to our Excel file (“Step1” sheet), “Provider State” (column D) from [1], and F and G columns from [3]. We then remove duplicates in “Provider State” using “Data->Remove Duplicates” (only for column D (to get to “Step1” sheet in current view). Then using Excel’s “Vlookup” function in green cells we can see the differences between values (columns C, E, H and I on figure 1) . We then get to know we have lost Puerto Rico, United States Virgin Islands, American Samoa, Guam, and Commonwealth of the Northern Mariana Islands – marked yellow. These territories are missing in both files with data, So we can safely get to exclude them. 

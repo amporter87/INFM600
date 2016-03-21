@@ -67,11 +67,13 @@ Correlation coefficient between ATP and WBI (0.47) can be interpreted as a possi
 
 # License
 
-The data in the INFM600 repository is distributed under a Creative Commons 
-Attribution-NonCommercial-ShareAlike 4.0 International License (see 
-http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The following is the suggested license to use for this data: http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+The public data contained in the zip file was distributed with permissions from CMS.gov, census.gov, and data.maryland.gov. 
 
 # Acknowledgements
+
+We thank CMS.gov, census.gov, and data.maryland.gov for this public data and the opportunity to share the data for this project. 
 
 # References
 

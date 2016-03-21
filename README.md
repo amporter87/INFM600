@@ -60,7 +60,7 @@ Fiqure 8. Linear approximation of dependence.
 
 # Overall conclusions
 
-Correlation coefficient between ATP and WBI (0.47) can be interpreted as a possible average dependence between WBI and ATP with a positive sign, showing that higher WBI indicates higher ATP values. R2 is 0.22, indicating a weak correlation in the sample since the value is far from 1. Taking other contributing variables into consideration may help with better approximations. However, this study demonstrates that higher well-being index potentially leads to higher average total payments in hospitals at the State level.
+The correlation coefficient between ATP and WBI (0.47) can be interpreted as a possible average dependence between WBI and ATP with a positive sign, showing that higher WBI indicates higher ATP values. R2 is 0.22, indicating a weak correlation in the sample since the value is far from 1. Taking other contributing variables into consideration may help with better approximations. However, this study demonstrates that higher well-being index potentially leads to higher average total payments in hospitals at the State level.
 
 # License
 

@@ -25,7 +25,7 @@ This file provides step-by-step guidance through the documentation and analysis 
 
 # Process Documentation
 
-Below is a step-by-step description of the entire process. Please find the figures mentioned below in the uploaded word document above. 
+Below is a step-by-step description of the entire process. Please find the figures mentioned below in the uploaded word document on the main page. 
 
 Step 1. Validating data. We will start by checking to see if we have the accurate and complete list of States in each file. Ensuring that we have an equal number of States in each file will help to identify missing States.
  
